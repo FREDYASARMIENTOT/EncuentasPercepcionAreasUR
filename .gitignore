@@ -1,0 +1,27 @@
+# Ignorar carpetas de sistema y backups
+.conda/
+backupconda/
+DWHchatbotTrobbit/
+ETLchatBotTrobbitNova/
+
+# Ignorar archivos del motor
+*.xlsx
+*.log
+Logs/
+Temp/
+__pycache__/
+.env
+# Ignorar instaladores pesados (Wheels)
+*.whl
+packages.txt
+
+# Ignorar datos reales (Seguridad y peso)
+*.csv
+temp_exportacion_multiarea/
+*.bak
+
+# Ignorar carpetas de VS Code y Python
+.vscode/
+__pycache__/
+
+VersionesEncuestas/
